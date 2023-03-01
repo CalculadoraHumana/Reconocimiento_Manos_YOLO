@@ -13,6 +13,7 @@ Result_frames = "SEMANA 2/resultadosframes"
 
 # Pedir al usuario que ingrese el color del rectángulo en formato (B,G,R)
 color_str = input("Ingrese el color del rectángulo en formato (B,G,R): ")
+print("Esta es ua prueba")
 color = tuple(map(int, color_str.split(",")))
 
 #Grosor del rectangulo
